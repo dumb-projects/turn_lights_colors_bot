@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+     <script type='text/javascript' src="{{url_for('static', filename='js/jquery.js') }}"></script>
+
+    <script type='text/javascript' src="{{url_for('static', filename='js/change_color.js')}}">
+    </script>
+  </head>
+  <body onload="connectBridge()">
+    <h1>Change lights based on things I type</h1>
+
+    <div class="text-input">
+      <textarea rows="4" cols="50"
+                id='text_input'
+                placeholder='Type what color the lights should turn.'></textarea
+
+    <div class="lights-input">
+      <textarea rows="4" cols="50"
+                id='list_of_lights'
+                placeholder='Type which lights to turn colors.'></textarea>
+
+      <button id='do_it' onclick="getColorToChange()">Submit</button>
+    </div>
+
+
+  </body>
+
+</html>

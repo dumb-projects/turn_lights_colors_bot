@@ -1,0 +1,38 @@
+body{
+  background-color: #ffffff;
+  font-style: roboto;
+  font-size: large;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.text-input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 66%;
+  margin: 0 auto;
+}
+
+.text-input textarea{
+  width: 100%;
+  margin: 20px 0px;
+  height: 10em;
+  border-radius: 5px;
+}
+
+.lights-input textarea{
+  width: 100%;
+  margin: 20px 0px;
+  height: 10em;
+  border-radius: 5px;
+}
+
+.lights-input button{
+  height: 2.5em;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: large;
+}
